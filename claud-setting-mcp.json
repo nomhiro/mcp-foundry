@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "azure-agent": {
+      "command": "python",
+      "args": [
+        "-m",
+        "azure_agent_mcp_server"
+      ],
+      "cwd": "C:\\Users\\AdmUser\\Documents\\mcp-foundry\\src\\python",
+      "env": {
+        "PYTHONPATH": "C:\\Users\\AdmUser\\Documents\\mcp-foundry\\src\\python",
+        "PROJECT_CONNECTION_STRING": "https://swedencentral.api.azureml.ms;f80766c9-6be7-43f9-8369-d492efceff1e;mcp-poc;mcp-poc",
+        "DEFAULT_AGENT_ID": "asst_s9pNftL0Z0posbBEJblTwQn3"
+      }
+    }
+  }
+}
